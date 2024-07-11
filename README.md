@@ -12,7 +12,7 @@ Docker, Docker Hub, Kubernetes, CI/CD, Containerization, Automation, Monitoring,
 
 Create a Dockerfile to build application 
 
-docker biuld . -t dapkeprajwal/reddit-clone-app 
+docker biuld . -t dapkeprajwal/reddit-clone-app
 
 Then push app folder to dockerhub with :
 
@@ -22,6 +22,10 @@ docker push dapkeprajwal/reddit-clone-app:latest
  create a kubernetes manifest file using yml to craete deployment
  
  In deployment use replica for load balancing 
+
+ kubectl apply -f deployment.yml
+
+ 
 
  
  
